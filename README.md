@@ -1,3 +1,5 @@
+# Engenharia de Software
+
 Este repositório contém todo o Conteudo Dado Nas Aulas bem como o Projeto Final da unidade curricular De Engenharia de Software do curso de Informática (2.º ano, UMAIA).
 
 Para esta Cadeira Como Projeto Final foi Pedido o desenvolvimento de uma ideia de um projeto App OU API e desenvolvendo toda a estrutura e engenharia que esta implicaria
@@ -10,6 +12,8 @@ Para esta Cadeira Como Projeto Final foi Pedido o desenvolvimento de uma ideia d
 
 Aqui vai encontrar encontrar todo o relatorio de Desenvolvimento da TASKLY_APP desenvolvido por
 Carolina Fernandes (A044897) Bernardo Macedo (A042429) Pedro Venda (A045464) Ruben Garcia (A047635)
+
+importante ainda referir qeu alguns links no relatorio poderão não estar a funcionar uma vez que a organização é privada sendo o gerente da mesma o docente da Cadeira.
 
 
 ## Visão de Produto - Taskly
@@ -212,25 +216,48 @@ Objetivo: Avaliar as interações mais comuns na app e identificar pontos de fri
 
 ---
 
-## TASK DIVISION
-REQUIREMENTS -- Carolina Fernandes (A044897) Bernardo Macedo (A042429) Pedro Venda (A045464) Ruben Garcia (A047635)
-PRODUCT VISION -- Carolina Fernandes (A044897) Bernardo Macedo (A042429) Pedro Venda (A045464) Ruben Garcia (A047635)
-USE CASES -- Pedro Venda (A045464) Bernardo Macedo (A042429)
-USE STORIES -- Pedro Venda (A045464) Carolina Fernandes (A044897)
-UI MOCKUPS -- Pedro Venda (A045464)
-ACEPTANCE TEST -- Pedro Venda (A045464) Ruben Garcia (A047635)
-DOMAIN MODEL -- Ruben Garcia (A047635)
-PRODUCT BACKLOG AND VALUE EFFORT -- Pedro Venda (A045464)
-VERTICAL PROTOTYPE -- Pedro Venda (A045464)
-PRODUCT INCREMENT #0 -- Pedro Venda (A045464)
-BOARD IS WELL USED #0 -- Pedro Venda (A045464)
-PRODUCT INCREMENT #1 -- Pedro Venda (A045464)
-BOARD IS WELL USED #1 -- Pedro Venda (A045464) Carolina Fernandes (A044897) Ruben Garcia (A047635)
-PRODUCT INCREMENT #2 -- Pedro Venda (A045464) Carolina Fernandes (A044897) Ruben Garcia (A047635)
-BOARD IS WELL USED #2 -- Pedro Venda (A045464) Carolina Fernandes (A044897)
-LOGICAL UML DIAGRAM -- Pedro Venda (A045464)
-PHYSICAL UML DIAGRAM -- Pedro Venda (A045464)
-GITHUB FLOW FLOWED -- Carolina Fernandes (A044897) 22% ; Pedro Venda (A045464) 56% ; Ruben Garcia (A047635) 22%
-FLUTTERFLOW -- Carolina Fernandes (A044897) 30% Pedro Venda (A045464) 40% Ruben Garcia (A047635) 30%
+## **TASK DIVISION**
 
-GERAL -- Carolina Fernandes (A044897) 28% Pedro Venda (A045464) 44% Ruben Garcia (A047635) 28%
+| **Task**                          | **Responsáveis**                                      |
+|------------------------------------|------------------------------------------------------|
+| **USE CASES**                      | Pedro Venda (A045464), Bernardo Macedo (A042429)     |
+| **USE STORIES**                    | Pedro Venda (A045464), Carolina Fernandes (A044897)  |
+| **UI MOCKUPS**                     | Pedro Venda (A045464)                                |
+| **ACCEPTANCE TEST**                | Pedro Venda (A045464), Ruben Garcia (A047635)        |
+| **DOMAIN MODEL**                   | Ruben Garcia (A047635)                               |
+| **PRODUCT BACKLOG AND VALUE EFFORT**| Pedro Venda (A045464)                                |
+| **VERTICAL PROTOTYPE**             | Pedro Venda (A045464)                                |
+| **PRODUCT INCREMENT #0**           | Pedro Venda (A045464)                                |
+| **BOARD IS WELL USED #0**          | Pedro Venda (A045464)                                |
+| **PRODUCT INCREMENT #1**           | Pedro Venda (A045464)                                |
+| **BOARD IS WELL USED #1**          | Pedro Venda (A045464), Carolina Fernandes (A044897), Ruben Garcia (A047635) |
+| **PRODUCT INCREMENT #2**           | Pedro Venda (A045464), Carolina Fernandes (A044897), Ruben Garcia (A047635) |
+| **BOARD IS WELL USED #2**          | Pedro Venda (A045464), Carolina Fernandes (A044897)  |
+| **LOGICAL UML DIAGRAM**            | Pedro Venda (A045464)                                |
+| **PHYSICAL UML DIAGRAM**           | Pedro Venda (A045464)                                |
+
+---
+
+### **GITHUB FLOW**
+- **Carolina Fernandes (A044897)**: 22%  
+- **Pedro Venda (A045464)**: 56%  
+- **Ruben Garcia (A047635)**: 22%
+
+---
+
+### **FLUTTERFLOW**
+- **Carolina Fernandes (A044897)**: 30%  
+- **Pedro Venda (A045464)**: 40%  
+- **Ruben Garcia (A047635)**: 30%
+
+---
+
+### **GERAL**
+- **Carolina Fernandes (A044897)**: 28%  
+- **Pedro Venda (A045464)**: 44%  
+- **Ruben Garcia (A047635)**: 28%
+
+
+## 👤 Autor
+
+Repositório individual desenvolvido por [**Pedro Venda**](https://github.com/PedroVenda27)
