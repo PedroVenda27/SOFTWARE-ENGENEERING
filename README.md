@@ -14,8 +14,6 @@ Carolina Fernandes (A044897) Bernardo Macedo (A042429) Pedro Venda (A045464) Rub
 
 ## Visão de Produto - Taskly
 
-
-
 ### 1. Introdução
 
 A nossa aplicação de gestão de tarefas e produtividade tem como objetivo oferecer uma solução intuitiva, eficiente e colaborativa para usuários individuais e equipes organizarem o seu dia a dia.
@@ -243,15 +241,15 @@ Slogan: "TASKLY Organize. Priorize. Conclua. Produtividade sem complicação!!"
 | *Alternative flows and exceptions* | 1. [Erro de permissão] Se a tarefa for de outro utilizador, pode não ser possível movê-la. |
 
 
-
+---
 
 ## Use Case Model / Use Case Table
 
 Criámos um diagrama de casos de uso em UML para representar graficamente os principais casos de uso da aplicação e os atores envolvidos, clarificando o contexto e os limites do sistema. Além disso, elaborámos uma tabela de casos de uso que descreve, de forma detalhada, cada uma das funcionalidades de alto nível, com os respetivos objetivos, atores e descrições, seguindo uma abordagem orientada a resultados (verbo + substantivo). Esta combinação permite uma visão clara e completa das interações esperadas entre os utilizadores e o sistema.
 
-Este é o nosso [Use Case Model](https://github.com/UM-UCs-Org/es-2425-tat1/blob/main/docs/ModeloCasoSUso.md)
+Este é o nosso [Use Case Model](https://github.com/UM-UCs-Org/SOFTWARE-ENGENEERING/blob/main/docs/ModeloCasoSUso.md)
 
-Este é o nossa [Use Case Table](https://github.com/UM-UCs-Org/es-2425-tat1/blob/main/docs/TabelasCasosdeUso.md)
+Este é o nossa [Use Case Table](https://github.com/UM-UCs-Org/SOFTWARE-ENGENEERING/blob/main/docs/TabelasCasosdeUso.md)
 
 
 ## User Stories
@@ -331,10 +329,11 @@ A seguir, apresentamos um diagrama de implantação UML mostrando a visão físi
 
 ![image](https://github.com/user-attachments/assets/20ab024c-c081-4399-9cd8-f9f37f6b5508)
 
+---
 
-# Test Guide
+## Test Guide
 
-## O Utilizador Dever tentar fazer todas estas tarefas de forma a testar a aplicação 
+### O Utilizador Dever tentar fazer todas estas tarefas de forma a testar a aplicação 
 
 1. O utilizador faz login com "Get Started"
 2. O utilizador faz login com o Google
@@ -357,15 +356,11 @@ A seguir, apresentamos um diagrama de implantação UML mostrando a visão físi
 19. O utilizador tenta sincronizar o calendário com o Google
 20. O utilizador tenta dessincronizar o calendário
 
-
-
-## Results from the tests
+### Results from the tests
 
 Participantes: 20 alunos do ISMAI
 Método: Observação direta/ teste da app + questionário pós-teste
 Objetivo: Avaliar as interações mais comuns na app e identificar pontos de fricção
-
-
 
 🟢 Funcionamento Perfeito – 18 a 20 utilizadores (≥ 90%)
 
@@ -396,52 +391,27 @@ Objetivo: Avaliar as interações mais comuns na app e identificar pontos de fri
 - O utilizador tenta criar uma tarefa normal
 - O utilizador tenta criar uma tarefa importante
 
+---
 
-
-
-
-
-
-
-
-
-TASK DIVISION
+## TASK DIVISION
 REQUIREMENTS -- Carolina Fernandes (A044897) Bernardo Macedo (A042429) Pedro Venda (A045464) Ruben Garcia (A047635)
-
 PRODUCT VISION -- Carolina Fernandes (A044897) Bernardo Macedo (A042429) Pedro Venda (A045464) Ruben Garcia (A047635)
-
 USE CASES -- Pedro Venda (A045464) Bernardo Macedo (A042429)
-
 USE STORIES -- Pedro Venda (A045464) Carolina Fernandes (A044897)
-
 UI MOCKUPS -- Pedro Venda (A045464)
-
 ACEPTANCE TEST -- Pedro Venda (A045464) Ruben Garcia (A047635)
-
 DOMAIN MODEL -- Ruben Garcia (A047635)
-
 PRODUCT BACKLOG AND VALUE EFFORT -- Pedro Venda (A045464)
-
 VERTICAL PROTOTYPE -- Pedro Venda (A045464)
-
 PRODUCT INCREMENT #0 -- Pedro Venda (A045464)
-
 BOARD IS WELL USED #0 -- Pedro Venda (A045464)
-
 PRODUCT INCREMENT #1 -- Pedro Venda (A045464)
-
 BOARD IS WELL USED #1 -- Pedro Venda (A045464) Carolina Fernandes (A044897) Ruben Garcia (A047635)
-
 PRODUCT INCREMENT #2 -- Pedro Venda (A045464) Carolina Fernandes (A044897) Ruben Garcia (A047635)
-
 BOARD IS WELL USED #2 -- Pedro Venda (A045464) Carolina Fernandes (A044897)
-
 LOGICAL UML DIAGRAM -- Pedro Venda (A045464)
-
 PHYSICAL UML DIAGRAM -- Pedro Venda (A045464)
-
 GITHUB FLOW FLOWED -- Carolina Fernandes (A044897) 22% ; Pedro Venda (A045464) 56% ; Ruben Garcia (A047635) 22%
-
 FLUTTERFLOW -- Carolina Fernandes (A044897) 30% Pedro Venda (A045464) 40% Ruben Garcia (A047635) 30%
 
 GERAL -- Carolina Fernandes (A044897) 28% Pedro Venda (A045464) 44% Ruben Garcia (A047635) 28%
