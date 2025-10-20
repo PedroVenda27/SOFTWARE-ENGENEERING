@@ -247,7 +247,7 @@ Slogan: "TASKLY Organize. Priorize. Conclua. Produtividade sem complicação!!"
 
 Criámos um diagrama de casos de uso em UML para representar graficamente os principais casos de uso da aplicação e os atores envolvidos, clarificando o contexto e os limites do sistema. Além disso, elaborámos uma tabela de casos de uso que descreve, de forma detalhada, cada uma das funcionalidades de alto nível, com os respetivos objetivos, atores e descrições, seguindo uma abordagem orientada a resultados (verbo + substantivo). Esta combinação permite uma visão clara e completa das interações esperadas entre os utilizadores e o sistema.
 
-Este é o nosso [Use Case Model](https://github.com/UM-UCs-Org/SOFTWARE-ENGENEERING/blob/main/docs/ModeloCasoSUso.md)
+Este é o nosso [Use Case Model](https://github.com/PedroVenda27/SOFTWARE-ENGENEERING/blob/main/docs/ModeloCasoSUso.md)
 
 Este é o nossa [Use Case Table](https://github.com/UM-UCs-Org/SOFTWARE-ENGENEERING/blob/main/docs/TabelasCasosdeUso.md)
 
