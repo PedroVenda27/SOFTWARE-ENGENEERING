@@ -1,0 +1,212 @@
+
+# Testes de Aceitação em Linguagem Gherkin
+
+## ✅ Calendário
+
+### US1 - Receber notificações e alertas sobre tarefas
+
+```gherkin
+Funcionalidade: Alertas de tarefas
+
+  Cenário: Alerta de tarefa prestes a vencer
+    Dado que o utilizador tem uma tarefa com prazo a menos de 1 hora
+    Quando o sistema verifica os prazos
+    Então o utilizador deve receber uma notificação
+
+  Cenário: Nenhum alerta para tarefas sem prazo
+    Dado que o utilizador tem uma tarefa sem prazo
+    Quando o sistema verifica os prazos
+    Então não deve enviar qualquer notificação
+```
+
+### US2 - Sincronizar com Google Calendar
+
+```gherkin
+Funcionalidade: Sincronização com Google Calendar
+
+  Cenário: Sincronizar com sucesso
+    Dado que o utilizador ligou o Google Calendar
+    Quando cria ou edita um evento
+    Então o evento deve ser sincronizado
+
+  Cenário: Erro de sincronização
+    Dado que a ligação com o Google Calendar falha
+    Quando tenta sincronizar um evento
+    Então o sistema deve exibir "Erro ao sincronizar"
+```
+
+### US3 - Apagar tarefas do calendário
+
+```gherkin
+Funcionalidade: Apagar tarefas
+
+  Cenário: Remover tarefa existente
+    Dado que existe uma tarefa no calendário
+    Quando o utilizador a apaga
+    Então a tarefa é removida
+
+  Cenário: Tentar remover tarefa inexistente
+    Dado que não há tarefas no dia selecionado
+    Quando tenta apagar uma tarefa
+    Então o sistema informa "Tarefa não encontrada"
+```
+
+### US4 - Editar tarefas no calendário
+
+```gherkin
+Funcionalidade: Editar tarefas
+
+  Cenário: Atualizar dados de uma tarefa
+    Dado que o utilizador selecionou uma tarefa
+    Quando altera o nome e o prazo
+    E guarda
+    Então a tarefa é atualizada
+
+  Cenário: Cancelar edição
+    Dado que está a editar uma tarefa
+    Quando clica em "Cancelar"
+    Então nenhuma alteração é feita
+```
+
+### US5 - Criar tarefas no calendário
+
+```gherkin
+Funcionalidade: Criar tarefas
+
+  Cenário: Criar tarefa válida
+    Dado que preenche nome e prazo
+    Quando clica em "Criar tarefa"
+    Então a tarefa aparece no calendário
+
+  Cenário: Criar tarefa sem nome
+    Dado que o campo nome está vazio
+    Quando tenta criar
+    Então o sistema mostra "Nome obrigatório"
+```
+
+### US6 - Visualizar prazos e agendamentos
+
+```gherkin
+Funcionalidade: Visualização no calendário
+
+  Cenário: Ver tarefas no calendário
+    Dado que existem tarefas com prazo
+    Quando acede ao calendário
+    Então deve ver as tarefas nas respetivas datas
+```
+
+## ✅ Etiquetas
+
+### US7 - Apagar etiquetas
+
+```gherkin
+Funcionalidade: Eliminar etiquetas
+
+  Cenário: Remover etiqueta usada
+    Dado que a etiqueta está associada a tarefas
+    Quando a apaga
+    Então deixa de estar visível e é removida da base de dados
+``` 
+
+### US8 - Editar etiquetas
+
+```gherkin
+Funcionalidade: Editar etiquetas
+
+  Cenário: Renomear etiqueta
+    Dado que o utilizador selecionou uma etiqueta
+    Quando muda o nome e guarda
+    Então o nome é atualizado
+```
+
+### US9 - Criar etiquetas
+
+```gherkin
+Funcionalidade: Criar etiquetas
+
+  Cenário: Criar nova etiqueta
+    Dado que o utilizador insere o nome e categoria
+    Quando clica em "Criar"
+    Então a etiqueta é guardada e fica visível
+```
+
+## ✅ Pastas 
+
+### US10 - Apagar pastas
+
+```gherkin
+Funcionalidade: Apagar pastas
+
+  Cenário: Remover pasta
+    Dado que a pasta não contém folhas importantes
+    Quando o utilizador clica em "Eliminar"
+    Então a pasta desaparece da lista
+```
+
+### US11 - Editar pastas
+
+```gherkin
+Funcionalidade: Editar pastas
+
+  Cenário: Renomear pasta
+    Dado que o utilizador clica em editar
+    Quando altera o nome
+    E guarda
+    Então o nome da pasta é atualizado
+
+  Cenário: Reorganizar pasta
+    Dado que deseja mudar a ordem
+    Quando arrasta para nova posição
+    Então a nova organização é guardada
+```
+
+### US12 - Criar pastas
+
+```gherkin
+Funcionalidade: Criar pastas
+
+  Cenário: Criar nova pasta
+    Dado que insere o nome "Trabalho"
+    Quando clica em "Criar pasta"
+    Então a pasta "Trabalho" aparece na lista
+```
+
+## ✅ Folhas 
+
+### US13 - Apagar folhas
+
+```gherkin
+Funcionalidade: Eliminar folhas
+
+  Cenário: Apagar folha com sucesso
+    Dado que a folha não tem conteúdo importante
+    Quando o utilizador a elimina
+    Então deixa de estar visível na pasta
+```
+
+### US14 - Editar folhas
+
+```gherkin
+Funcionalidade: Editar folhas
+
+  Cenário: Alterar conteúdo de folha
+    Dado que o utilizador abre uma folha
+    Quando edita o texto e guarda
+    Então as alterações são visíveis
+
+  Cenário: Cancelar edição
+    Dado que altera o conteúdo
+    Quando clica em "Cancelar"
+    Então nada é alterado
+```
+
+### US15 - Criar folhas
+
+```gherkin
+Funcionalidade: Criar folha
+
+  Cenário: Criar nova folha com conteúdo
+    Dado que o utilizador insere um título e texto
+    Quando clica em "Criar"
+    Então a folha é criada com o conteúdo fornecido
+```
