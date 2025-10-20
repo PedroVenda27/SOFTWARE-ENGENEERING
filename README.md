@@ -67,7 +67,7 @@ Criámos um diagrama de casos de uso em UML para representar graficamente os pri
 
 Este é o nosso [Use Case Model](https://github.com/PedroVenda27/SOFTWARE-ENGENEERING/blob/main/docs/ModeloCasoSUso.md)
 
-Este é o nossa [Use Case Table](https://github.com/UM-UCs-Org/SOFTWARE-ENGENEERING/blob/main/docs/TabelasCasosdeUso.md)
+Este é o nossa [Use Case Table](https://github.com/PedroVenda27/SOFTWARE-ENGENEERING/blob/main/docs/TabelasCasosdeUso.md)
 
 
 ## User Stories
